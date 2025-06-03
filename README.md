@@ -91,13 +91,14 @@ cd Autism_Prediction_Model`
 `python Autism_Prediction_Model.py`
 
 4. Modify the last block to test with your own data:
+
 `new_data = np.array([[...]])
 final_prediction = model.predict(new_data)`
 
 # Visual Outputs
 - Heatmaps
 - Countplots (by autism status)
--ROC Curves for all models
+- ROC Curves for all models
 - Distribution charts (categorical, integer, and float features)
   
 # License
