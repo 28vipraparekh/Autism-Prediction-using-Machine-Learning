@@ -33,4 +33,12 @@ The goal of this project is to develop a robust model for early autism detection
 
 2. Demographics: Gender, Age, Ethnicity, Country of residence
 
-# 
+# Libraries Used         
+  `numpy`        : Efficient numerical computations and handling of arrays                 
+  `pandas`       : Data loading, preprocessing, and manipulation                           
+  `matplotlib`   : Plotting static graphs and charts                                       
+  `seaborn`      : Advanced visualization and statistical plotting                         
+  `warnings`     : Used to suppress unwanted warnings for cleaner output                   
+  `sklearn`      : Contains tools for preprocessing, model training, evaluation, and CV    
+  `xgboost`      : Efficient and scalable implementation of gradient boosting classifiers  
+
