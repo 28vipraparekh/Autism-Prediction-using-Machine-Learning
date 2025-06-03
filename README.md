@@ -42,3 +42,23 @@ The goal of this project is to develop a robust model for early autism detection
   `sklearn`      : Contains tools for preprocessing, model training, evaluation, and CV    
   `xgboost`      : Efficient and scalable implementation of gradient boosting classifiers  
 
+# Machine Learning Models Used
+
+This project implements several classification algorithms to determine which model performs best for predicting Autism Spectrum Disorder risk.
+
+***Logistic Regression*** is a linear model used for binary classification tasks. It works by estimating probabilities using a logistic function and makes predictions based on a threshold. This model is simple and interpretable and serves as a good baseline.
+
+***Support Vector Classifier (SVC)*** belongs to the family of Support Vector Machines. It tries to find the optimal hyperplane that separates the classes in the feature space. When data is not linearly separable, kernel functions (like the RBF kernel used here) transform it into a higher dimension to make separation possible.
+
+***Random Forest*** is an ensemble learning method that builds a collection of decision trees and merges their outputs for more robust predictions. Each tree is trained on a random subset of the data and features (a technique called bagging), which helps reduce overfitting and improves generalization.
+
+***Decision Tree*** is a simple and interpretable model that splits data into branches based on feature values. Each internal node represents a decision, and the leaves represent outcomes. However, single decision trees can overfit the training data if not pruned or regularized.
+
+***Naive Bayes***, particularly the Gaussian variant used here, is a probabilistic classifier based on Bayes' theorem. It assumes that features are independent and normally distributed. Despite its simplicity, it can be highly effective, especially on small or noisy datasets.
+
+***K-Nearest Neighbors (KNN)*** is a non-parametric model that assigns labels based on the majority class among its k closest data points in the training set. It doesn’t require any training time but can be computationally intensive during prediction.
+
+***XGBoost (Extreme Gradient Boosting)*** is a high-performance implementation of gradient boosting algorithms. It works by building models sequentially, each one trying to correct the errors of the previous one. XGBoost includes many regularization techniques, making it both powerful and generalizable.
+
+
+
