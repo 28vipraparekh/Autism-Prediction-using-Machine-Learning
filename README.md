@@ -12,6 +12,25 @@ The goal of this project is to develop a robust model for early autism detection
 6. Final model selection and testing with new input
 
 # Dataset
-Source: Autism Screening Data for Adults and Children (UCI Repository) [https://www.kaggle.com/code/shreyaporwall/autism-prediction/input]
-Type: Behavioral screening responses and demographic attributes
-Target: Binary classification (Autism risk or not)
+1. Source: Autism Screening Data for Adults and Children (UCI Repository) [https://www.kaggle.com/code/shreyaporwall/autism-prediction/input]
+2. Type: Behavioral screening responses and demographic attributes
+3. Target: Binary classification (Autism risk or not)
+
+> Note: The dataset is read from a local CSV file. Make sure to update the file path in the script (autism_screening.csv) before running.
+
+# Features Used
+1. Behavioral responses (A1–A10)
+- A1: Social Interest and Engagement
+- A2: Emotional Understanding
+- A3: Non-verbal Communication
+- A4: Conversational Ability
+- A5: Speech Development
+- A6: Conversational Initiation
+- A7: Routine and Predictability
+- A8: Repetitive Behaviors
+- A9: Sensory Sensitivities
+- A10: Fascination with Objects or Details
+
+2. Demographics: Gender, Age, Ethnicity, Country of residence
+
+# 
