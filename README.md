@@ -74,4 +74,31 @@ To assess model performance, several evaluation metrics and validation technique
 
 5. Finally, ***ROC curves*** are plotted to visually compare different models by showing the trade-off between the true positive rate and false positive rate. The curves help in selecting the model that provides the best separation between classes across various thresholds.
 
+# Dependencies
+Install the required packages using:
+`pip install numpy pandas matplotlib seaborn scikit-learn xgboost`
 
+# How to Run
+1. Clone the repository:
+
+`git clone https://github.com/yourusername/Autism_Prediction_Model.git
+cd Autism_Prediction_Model`
+
+2. Add your dataset (autism_screening.csv) to the root folder.
+
+3. Run the Python script:
+
+`python Autism_Prediction_Model.py`
+
+4. Modify the last block to test with your own data:
+`new_data = np.array([[...]])
+final_prediction = model.predict(new_data)`
+
+# Visual Outputs
+- Heatmaps
+- Countplots (by autism status)
+-ROC Curves for all models
+- Distribution charts (categorical, integer, and float features)
+  
+# License
+This project is open-source under the MIT License.
