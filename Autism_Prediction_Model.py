@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 
 
 #Load data
-data_path = pd.read_csv("/Users/vipraparekh/Downloads/autism_screening.csv")
+data_path = pd.read_csv("autism_screening.csv")
 
 
 # # Data Preprocessing
